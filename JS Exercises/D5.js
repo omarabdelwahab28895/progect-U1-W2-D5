@@ -124,6 +124,7 @@ if (numericArray[i] === 32){
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
+// ho messo uno spazio nell'arrey Alphabet in modo tale da far quadrare gli indici//
 const Alphabet = [' abcdefghijklmnopqrstuvwxyz']
 const positions = []
 
