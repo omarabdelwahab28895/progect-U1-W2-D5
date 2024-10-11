@@ -1,1 +1,107 @@
-/* Your styles here */
+head {
+    width: 100%;
+    text-align: center; 
+    padding: 20px;
+    background-color: blue;
+
+}
+body {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #f0f0f0;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10;
+        padding: 0;
+}
+header{
+    background-color: orange;
+    color: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+}
+.section1{background-color: blue;
+}
+.section2{background-color: ;
+font-weight: 9;}
+
+
+.logo {
+    width: 120px; 
+    height: auto;
+}
+a{
+    color:#f0f0f0;
+    text-decoration: none;
+    margin-right: 2 rem;
+    background-color: cornflowerblue;
+    display: inline-block;
+}
+
+
+.image-container {
+    position: relative;
+    display: inline-block; 
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto;
+}
+
+
+.image-container .text {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 36px; 
+    font-weight: bold;  
+    text-align: center; 
+}
+.image-container .text2{ position: absolute; 
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; }
+    
+    
+.image-container2 {
+        text-align: center;}
+
+.image-container2 img {
+            display: inline-block; 
+            width: 20%;
+            height: 150px; 
+            margin: 10px; 
+            vertical-align: top;
+        }
+        .image-container3 {
+            text-align: center}
+            .image-container3 img{
+                width: 80%;
+            }
+        .image-container4 {
+            text-align: center;}
+            .image-container4 img{
+                width: 80%;}
+footer{
+    text-align: center;
+    background-color: blue;
+
+}
+.logo footer{
+    text-align: center;
+}
+h4{color: blue;}
+
+
+/* dovrei impostare l'inline per le scritte sotto le ultim due foto ma mi sballa tutto
+.inline{
+    display: inline;
+}*/
+    
