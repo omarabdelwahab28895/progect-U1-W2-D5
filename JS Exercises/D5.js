@@ -34,7 +34,7 @@ console.log(pets)
 */
 const pets3 = ['dog', 'cat', 'hamster', 'redfish']
 // ho riscritto l'arrey poichè mi prendeva l'arrey modificato in ordine alfabetico//
-const newPets = [...pets3.slice(1), pets[0]];
+const newPets = [...pets3.slice(1), pets3[0]];
 
 console.log(newPets);
 
